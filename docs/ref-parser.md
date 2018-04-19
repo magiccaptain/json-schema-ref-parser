@@ -135,7 +135,7 @@ $RefParser.parse("my-schema.yaml")
 
 ### `resolve(schema, [options], [callback])`
 
-- **path** (_required_) - `string` or `object`<br>
+- **schema** (_required_) - `string` or `object`<br>
 A JSON Schema object, or the file path or URL of a JSON Schema file.  See the [`parse`](#parseschema-options-callback) method for more info.
 
 - **options** (_optional_) - `object`<br>
